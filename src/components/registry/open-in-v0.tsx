@@ -44,7 +44,7 @@ export function OpenInV0Button({
         window.open(url, "_blank", "noopener,noreferrer");
       }
     },
-    [url],
+    [url]
   );
 
   return (

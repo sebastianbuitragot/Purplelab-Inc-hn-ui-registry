@@ -15,6 +15,8 @@ export async function generateStaticParams() {
   }));
 }
 
+console.log("process.env.APP_URL", process.env.APP_URL);
+
 export default async function RegistryItemPage({
   params,
 }: {
@@ -45,7 +47,7 @@ export default async function RegistryItemPage({
 
       <ComponentCard
         component={component}
-        baseUrl={process.env.VERCEL_PROJECT_PRODUCTION_URL ?? ""}
+        baseUrl={process.env.APP_URL ?? ""}
         prompt={getPrompt()}
       />
     </div>
