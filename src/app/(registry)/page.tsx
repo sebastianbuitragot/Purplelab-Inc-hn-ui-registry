@@ -29,7 +29,6 @@ export default function Home() {
           </p>
         </div>
       </div>
-
       <Card className="mb-4 shadow-none">
         <CardHeader className="space-y-1">
           <div className="flex items-center justify-between">
@@ -62,7 +61,6 @@ export default function Home() {
           </div>
         </CardContent>
       </Card>
-
       <div className="mb-4 grid gap-6 md:grid-cols-2">
         <Card className="shadow-none">
           <CardHeader className="space-y-1">
@@ -130,7 +128,6 @@ export default function Home() {
           </CardContent>
         </Card>
       </div>
-
       <div className="mb-4 rounded-lg border bg-card p-6">
         <div className="flex flex-col gap-2">
           <h2 className="font-semibold text-xl">MCP</h2>
@@ -151,7 +148,6 @@ export default function Home() {
           <MCPTabs rootUrl={process.env.VERCEL_PROJECT_PRODUCTION_URL ?? ""} />
         </div>
       </div>
-
       <div className="rounded-lg border bg-card p-6">
         <div className="flex flex-col gap-2">
           <h2 className="font-semibold text-xl">About</h2>
