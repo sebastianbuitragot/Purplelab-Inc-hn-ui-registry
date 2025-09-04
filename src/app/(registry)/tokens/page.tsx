@@ -175,10 +175,26 @@ export default function TokensPage() {
           Border radius values used for different component sizes.
         </p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
-          <RadiusBlock name="Small" variable="radius-sm" className="rounded-sm" />
-          <RadiusBlock name="Medium" variable="radius-md" className="rounded-md" />
-          <RadiusBlock name="Large" variable="radius-lg" className="rounded-lg" />
-          <RadiusBlock name="Extra Large" variable="radius-xl" className="rounded-xl" />
+          <RadiusBlock
+            name="Small"
+            variable="radius-sm"
+            className="rounded-sm"
+          />
+          <RadiusBlock
+            name="Medium"
+            variable="radius-md"
+            className="rounded-md"
+          />
+          <RadiusBlock
+            name="Large"
+            variable="radius-lg"
+            className="rounded-lg"
+          />
+          <RadiusBlock
+            name="Extra Large"
+            variable="radius-xl"
+            className="rounded-xl"
+          />
         </div>
       </section>
 
@@ -189,11 +205,23 @@ export default function TokensPage() {
           Shadow values used for elevation and depth.
         </p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-          <ShadowBlock name="2XS" variable="shadow-2xs" className="shadow-2xs" />
+          <ShadowBlock
+            name="2XS"
+            variable="shadow-2xs"
+            className="shadow-2xs"
+          />
           <ShadowBlock name="XS" variable="shadow-xs" className="shadow-xs" />
-          <ShadowBlock name="Small" variable="shadow-sm" className="shadow-sm" />
+          <ShadowBlock
+            name="Small"
+            variable="shadow-sm"
+            className="shadow-sm"
+          />
           <ShadowBlock name="Medium" variable="shadow" className="shadow" />
-          <ShadowBlock name="Large" variable="shadow-md" className="shadow-md" />
+          <ShadowBlock
+            name="Large"
+            variable="shadow-md"
+            className="shadow-md"
+          />
           <ShadowBlock name="XL" variable="shadow-lg" className="shadow-lg" />
           <ShadowBlock name="2XL" variable="shadow-xl" className="shadow-xl" />
         </div>
@@ -206,8 +234,16 @@ export default function TokensPage() {
           Core spacing and typography values used throughout the design system.
         </p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <SpacingBlock name="Base Spacing" variable="spacing" value="0.25rem" />
-          <SpacingBlock name="Letter Tracking" variable="tracking-normal" value="0em" />
+          <SpacingBlock
+            name="Base Spacing"
+            variable="spacing"
+            value="0.25rem"
+          />
+          <SpacingBlock
+            name="Letter Tracking"
+            variable="tracking-normal"
+            value="0em"
+          />
         </div>
       </section>
     </div>
